@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.2)
 project(KMCUDA)
-set(CMAKE_MODULE_PATH ${CMAKE_HOME_DIRECTORY}/cmake)
+set(CMAKE_MODULE_PATH ${CMAKE_HOME_DIRECTORY}/cmake3)
 find_package(OpenMP REQUIRED)
 if (APPLE AND NOT CUDA_HOST_COMPILER)
   # https://gitlab.kitware.com/cmake/cmake/issues/13674
